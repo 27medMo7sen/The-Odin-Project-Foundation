@@ -1,15 +1,13 @@
-
-.inverted,
-.fancy {
-  font-family: Helvetica, "Times New Roman", sans-serif;
+button{
   font-size: 28px;
+  font-family: Helvetica ,Times New Roman ,sans-serif;
+  padding-top: 5px;
 }
-
-.inverted {
+.one{
   background-color: black;
-  color: white;
+  color: #FFFFFF;
 }
-
-.fancy {
-  background-color: yellow;
+.two{
+background-color: yellow;
+  color: black;
 }
