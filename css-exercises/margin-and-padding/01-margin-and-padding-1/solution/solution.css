@@ -1,28 +1,18 @@
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
+.one{
+  background-color: pink;
   padding: 32px;
-  margin: 12px;
+  margin: 12px 200px 12px 200px;
+  border: 2px solid blue ;
 }
-
-.two {
-  background: lightblue;
-  border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 48px;
+.two{
+  padding: 0;
+background-color: lightblue;
+  border: 3px solid darkviolet;
+  margin: 12px 170px 48px 170px;
 }
-
-.three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
+.three{
+  background-color: saddlebrown;
   padding: 32px;
-  margin-left: auto;
+  border: 3px solid black;
+  margin: 48px  200px  12px 1000px;
 }
