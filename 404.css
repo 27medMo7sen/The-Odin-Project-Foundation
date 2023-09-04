@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+display:flex;
+width: 1200px;
+}
+.container div{
+    background-color: peachpuff;
+    border: 3px solid saddlebrown;
+    width: 300px    ;
+    flex-grow: 1 ;
+
+}
+.container .two {
+    flex-shrink: 2  ;
+}
