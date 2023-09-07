@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>📖Menu</title>
+</head>
+<body>
+<div class="entry">
+    <div class="header">
+        <div class="logo">
+            <img src="../logo.png.webp" alt="logo">
+        </div>
+        <div class="navContainer">
+
+            <nav>
+                <a href="../homePage/index.html" class="link">HOME</a>
+                <a href="../about/index.html" class="link">ABOUT</a>
+                <a href="../contact/index.html" class="link">CONTACT US</a>
+            </nav>
+        </div>
+        <h1>Menus</h1>
+    </div>
+    <div class="dir">
+    <div class="pre">  <a href="../homePage/index.html" class="link">Home</a> </div>
+        <div class="arrow"> --> </div>
+        <div class="cur"><a href="index.html" class="link">Menu</a></div>
+    </div>
+    <div class="main">
+        <p class="q">
+            What kind of Foods we serve for you
+        </p>
+        <div class="menu-bar">
+            <div class="menu-section" onclick="showMenu('all')">All Menu</div>
+            <div class="menu-section" onclick="showMenu('breakfast')">Breakfast</div>
+            <div class="menu-section" onclick="showMenu('lunch')">Lunch</div>
+            <div class="menu-section" onclick="showMenu('dinner')">Dinner</div>
+            <div class="menu-section" onclick="showMenu('budget')">Budget Meal</div>
+            <div class="menu-section" onclick="showMenu('buffet')">Buffet</div>
+        </div>
+
+        <div class="menu-container" id="menu-container">
+
+        </div>
+        <script src="main.js"></script>
+
+    </div>
+    <div class="reservation">
+
+        <div class="massage">
+            <p class="why-res">
+                Reserve Your Seats to Confirm if You Come with Your Family
+            </p>
+            <br>
+            <p class="if-not">
+                If you do not reserve and go directly to the branch, your seat will be determined according to the condition of the hall in terms of the number of remaining seats and their locations
+            </p>
+        </div>
+        <form action="submit_reservation.php" method="post">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="datetime">Select Date and Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <option value="family_meal">Family Meal</option>
+                <option value="birthday_party">Birthday Party</option>
+                <option value="business_dinner">Business Dinner</option>
+                <option value="other">Other</option>
+            </select>
+
+            <input type="submit" value="Submit Reservation">
+        </form>
+
+    </div>
+    <div class="footer">
+        <div class="copyRights">Copyright ©2023 All rights reserved</div>
+        <img class="resize" src="../social.jpg" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="_blank" alt="facebook" title="facebook" href="https://www.facebook.com" coords="8,8,88,81" shape="rect">
+            <area target="_blank" alt="youtube" title="youtube" href="https://www.youtube.com" coords="106,8,193,86" shape="rect">
+            <area target="_blank" alt="tweeter" title="tweeter" href="https://www.tweeter.com" coords="210,13,292,82" shape="rect">
+            <area target="_blank" alt="linkedin" title="linkedin" href="https://www.linkedin.com" coords="308,8,392,86" shape="rect">
+            <area target="_blank" alt="snapchat" title="snapchat" href="https://www.snapchat.com" coords="410,12,492,83" shape="rect">
+            <area target="_blank" alt="instagram" title="instagram" href="https://www.Instagram.com" coords="511,10,591,84" shape="rect">
+        </map>
+    </div>
+
+
+</body>
+</html>

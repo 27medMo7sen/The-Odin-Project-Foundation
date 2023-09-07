@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.entry{
+    background-image: linear-gradient(rgb(38, 60, 75 , 50%), rgba(38, 60, 75 , 50%)), url("../hero-bg.jpg.webp");
+
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.entry h1{
+    margin-top: 75px;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.navContainer{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #7e7d7d;
+    border-bottom: 1px solid #7e7d7d;
+
+}
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px   ;
+}
+.dir{
+    white-space: pre;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    color: white;
+}
+.dir a {
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+}
+.main p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-bar {
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-section {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-section:hover {
+    background-color: #ff4c4c;
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    flex: 1;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 20px;
+    height: 400px;
+    max-height: 600px;
+    max-width: 700px;
+    align-items: center;
+}
+
+.menu-card {
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+
+}
+
+.menu-card h2 {
+    margin: 0;
+}
+
+.menu-card p {
+    margin: 10px 0;
+}
+.reservation{
+    margin-top: 40px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 75%), rgba(0, 0, 0, 75%)), url("../reservation-bg.jpg.webp");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+}
+
+.if-not{
+    max-width: 800px;
+    color: white;
+
+}
+.why-res{
+    font-size: 35px;
+    font-weight: 800;
+    max-width: 500px;
+    color: white;
+}
+form {
+
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    height: 425px;
+    margin-left: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="datetime-local"] {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+select {
+    height: 35px;
+}
+
+input[type="submit"] {
+    background-color: #ff3232;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+.resize{
+    width: 200px;
+    height: 30px;
+}
+.footer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #545454;
+    color: white;
+}
+img{
+    padding-left: 15px  ;
+}

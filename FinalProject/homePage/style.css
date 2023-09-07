@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.entry{
+    background-image: url("../hero-bg.jpg.webp") ;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.navContainer{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #7e7d7d;
+    border-bottom: 1px solid #7e7d7d;
+
+}
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px   ;
+}
+.welcome{
+    color: white;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.welcome p{
+    max-width: 500px;
+}
+.welcome button {
+   padding: 15px 20px 15px 20px ;
+    color: white;
+    background-color: #ff3434;
+    border: none;
+    margin-top: 20px;
+}
+.hh{
+    font-size: 80px;
+    font-weight: 800;
+}
+span{
+    white-space: pre;
+}
+.resize{
+width: 200px;
+    height: 30px;
+}
+.footer{
+     display: flex;
+     height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #545454;
+    color: white;
+}
+img{
+    padding-left: 15px  ;
+}
