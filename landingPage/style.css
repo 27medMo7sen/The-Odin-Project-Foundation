@@ -1,0 +1,152 @@
+body , .header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #1f2937;
+}
+ nav {
+     margin: 8px;
+    display: flex;
+     justify-content: space-around;
+     color: white;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+   gap: 22px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    gap: 40px;
+}
+.text {
+    flex-basis: 420px;
+}
+.text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.mainHeader button{
+    background-color: #3882F6;
+   border: none;
+    color: #FFFFFF;
+    border-radius: 10%;
+    font-size: 18px;
+    padding: 4px 18px 4px 18px;
+
+}
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    flex-basis: 500px;
+
+}
+.main span{
+    font-size: 36px;
+    font-weight: 800;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+   margin-top: 40px;
+}
+.place{
+    height: 180px;
+    width: 180px;
+    border: 6px solid  #3882F6 ;
+    border-radius: 10%;
+}
+.single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.wise{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    color: #1f2937;
+}
+.first{
+    font-size: 36px;
+}
+.signature{
+  align-self: flex-end;
+    font-weight: bold;
+}
+.signUp{
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-basis: 1000px;
+    min-height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3882F6 ;
+    border-radius: 8px;
+}
+.textCard h2{
+    margin: 0;
+    padding: 0;
+}
+.textCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.card button{
+align-self: center;
+background-color: #3882F6 ;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding: 4px 12px 4px 12px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
