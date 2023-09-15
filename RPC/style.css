@@ -1,0 +1,97 @@
+*{
+    font-family: 'Concert One', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC8AA;
+
+}
+nav{
+    background-color: #F1EFEF;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.main{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 600px;
+}
+.computerSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EFEF;
+    font-size: 24px;
+    font-weight: 800;
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 0px 50px 50px 0px;
+
+}.playerSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1EFEF;
+     font-size: 24px;
+     font-weight: 800;
+     min-width: 500px;
+     min-height: 300px;
+    border-radius: 50px 0px 0px 50px;
+}
+#imgPlaceHolder1 , #imgPlaceHolder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 165px;
+    min-height: 150px;
+
+}
+#imgPlaceHolder2 button{
+    font-size: 20px;
+    background-color: #7D7C7C;
+    border: none;
+    color: #F1EFEF;
+}
+#imgPlaceHolder2  button:hover{
+    background-color: #191717;
+    border-radius: 20px 0px 0px 20px;
+}
+.massage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+#winMassage {
+     font-size: 26px;
+    font-weight: 700;
+}
+#loseMassage{
+
+    font-size: 26px;
+    font-weight: 700;
+}#ruleMassage{
+    font-size: 26px;
+    font-weight: 700;
+     font-family: 'Courier New', Courier, monospace;
+
+}
+#ask{
+    display: none;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <title>RPC</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="logo">
+    <img src="logo.png" alt="logo">
+    <span>Rock-Paper-Scissor</span>
+    </div>
+</nav>
+<div class="massage">
+    <p id="ruleMassage"></p>
+    <p id="winMassage"></p>
+    <p id="loseMassage"></p>
+   </div>
+<div class="main">
+
+    <div class="computerSide">
+        <div id="imgPlaceHolder1">
+        <img src="" alt="" id="Cm">
+        </div>
+        <span id="Cr">Computer: 0</span>
+    </div>
+    <div id="ask">
+        <span>Play again?</span>
+        <img src="a_5c988b6806a85%20(2).png" alt="" id="retry">
+    </div>
+        <div class="playerSide">
+            <div id="imgPlaceHolder2">
+                <img src="" alt="" id="Pm">
+                <div id="choice">
+                <button value="rock" id="R">Rock</button>
+                <button value="paper" id="P">Paper</button>
+                <button value="scissor" id="C">Scissor</button>
+                </div>
+            </div>
+            <span id="Pr">Player: 0</span>
+
+        </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
