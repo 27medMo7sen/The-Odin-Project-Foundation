@@ -67,6 +67,16 @@ body{
   height: 348px;
   width: 348px;
 }
+.overr{
+  background-color: red;
+}.overb{
+  background-color: blue;
+}.overg{
+  background-color: green;
+}
+/*.overr{*/
+/*  background-color: red;*/
+/*}*/
 button{
   height: 60px;
   width: 120px;
@@ -89,6 +99,32 @@ button{
   color: blue;
   font-size: 16px;
 }
+#r:hover
+{
+  color: wheat;
+  background-color: red;
+  font-size: 16px;
+}#g:hover
+ {
+   color: wheat;
+   background-color: green;
+   font-size: 16px;
+ }#b:hover
+  {
+    color: wheat;
+    background-color: blue;
+    font-size: 16px;
+  }#ref:hover
+  {
+    color: wheat;
+    background-color: black;
+    font-size: 16px;
+  }#rgb:hover
+  {
+    color: wheat;
+    background-color: black;
+    font-size: 16px;
+  }
 #rgb{
   font-size: 16px;
 }
