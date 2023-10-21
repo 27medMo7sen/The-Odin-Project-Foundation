@@ -1,13 +1,29 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <title>Div-based Popup Example</title>
+  <link rel="stylesheet" type="text/css" href="404.css">
 </head>
 <body>
-<script src="404.js"></script>
+<button onclick="openPopup()">Open Popup</button>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2>Popup Content</h2>
+    <p>This is the content of the popup.</p>
+  </div>
+</div>
+
+<script>
+  function openPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  }
+
+  function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+</script>
 </body>
 </html>
