@@ -1,18 +1,23 @@
-let books = [{name:"Song on ice and fire" , author:"J.R.R Martin" , num:1023 , st:false},{name:"The Hobbit" , author:"J.R.R Tolkien" , num:543 , st:false}];
+let books = [{name: "Song on ice and fire", author: "G.R.R Martin", num: 1023, st: false}, {
+  name: "The Hobbit", author: "J.R.R Tolkien", num: 543, st: false
+}];
 creatLibrary();
+
 function book(name, author, num, st) {
   this.name = name;
   this.author = author;
   this.num = num;
   this.st = st;
-  let setSt = function (sst) {
+  var setSt = function (sst) {
     st = sst;
   }
 }
-function rearrange(idx){
-  books.splice(idx,1);
+
+function rearrange(idx) {
+  books.splice(idx, 1);
   creatLibrary();
 }
+
 function popupReform() {
   bname.value = '';
   aname.value = '';
@@ -70,9 +75,11 @@ function creatLibrary() {
 
     if (checker === true) {
       newReadBtn.classList.add("read");
+      books[i].setSt(true);
       newReadBtn.textContent = 'read';
     } else {
       newReadBtn.classList.add("notread");
+      books[i].setSt(false);
       newReadBtn.textContent = 'not read';
     }
 
@@ -91,7 +98,7 @@ function creatLibrary() {
     const newDeleteBtn = document.createElement('button');
     newDeleteBtn.setAttribute('class', 'delete');
     newDeleteBtn.textContent = 'delete';
-    newDeleteBtn.addEventListener('click',()=> {
+    newDeleteBtn.addEventListener('click', () => {
       rearrange(i);
     });
     newDiv.appendChild(newReadBtn);
