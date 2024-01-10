@@ -85,7 +85,7 @@ function creatLibrary() {
 
     newReadBtn.addEventListener('click', function () {
       if (newReadBtn.classList.contains("read")) {
-        newReadBtn.classList.remove("read");
+      newReadBtn.classList.remove("read");
         newReadBtn.classList.add("notread");
         newReadBtn.textContent = 'not read';
       } else {
